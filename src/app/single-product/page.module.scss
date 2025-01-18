@@ -1,0 +1,57 @@
+.singleProduct {
+  .main {
+    background-color: #eff7fa;
+    padding: 100px 200px;
+    display: flex;
+    gap: 30px;
+
+    .left {
+      padding: 30px;
+      background-color: #fff;
+      width: 50%;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .right {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding: 30px;
+      background-color: #fff;
+      width: 50%;
+
+      p {
+        &:nth-child(1) {
+          font-size: 28px;
+          font-weight: 100;
+        }
+
+        &:nth-child(2) {
+          font-size: 20px;
+          font-weight: 100;
+          color: #28a745;
+        }
+
+        &:nth-child(3) {
+          font-size: 20px;
+          font-weight: 100;
+        }
+
+        &:nth-child(4) {
+          font-size: 20px;
+          font-weight: 100;
+        }
+
+        &:nth-child(5) {
+          border: 1px solid gray;
+          padding: 10px;
+          font-size: 20px;
+          font-weight: 100;
+        }
+      }
+    }
+  }
+}

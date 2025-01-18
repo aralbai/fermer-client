@@ -1,0 +1,46 @@
+.footer {
+  padding: 50px 200px;
+  background-color: #ff7f54;
+  color: white;
+
+  .right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .logo {
+      display: flex;
+      gap: 15px;
+      margin-bottom: 15px;
+    }
+
+    .link {
+      display: flex;
+      gap: 15px;
+      align-items: center;
+      color: white;
+
+      img {
+        width: 30px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    padding: 0;
+    color: white;
+
+    .right {
+      padding: 20px;
+      // background-color: red;
+
+      .link {
+        img {
+          width: 5%;
+        }
+      }
+    }
+  }
+}
