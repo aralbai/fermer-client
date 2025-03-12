@@ -10,20 +10,23 @@ export default function Slider() {
       <div className={styles.menu}>
         <div className={styles.item}>
           <div>
-            <img src="/vegetables.png" />
+            <img src="/vegetables.avif" />
           </div>
+          <div className={styles.blur}></div>
           <h2>Palız ónimleri</h2>
         </div>
         <div className={styles.item}>
           <div>
-            <img src="/fruits.png" />
+            <img src="/fruits2.jpg" />
           </div>
+          <div className={styles.blur}></div>
           <h2>Miyweler</h2>
         </div>
         <div className={styles.item}>
           <div>
-            <img src="/seeds.png" />
+            <img src="/donlar.jpg" />
           </div>
+          <div className={styles.blur}></div>
           <h2>Dánli ónimler</h2>
         </div>
       </div>

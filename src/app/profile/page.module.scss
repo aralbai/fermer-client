@@ -1,5 +1,6 @@
 .profile {
   background-color: #eff7fa;
+
   .main {
     padding: 50px 200px;
 
@@ -146,6 +147,34 @@
             border-radius: 20px;
             color: white;
             cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .profile {
+    padding: 0;
+
+    .main {
+      padding: 0;
+
+      .top {
+        form {
+          .inputGroup {
+            div {
+              flex-direction: column;
+
+              input {
+                width: 100%;
+              }
+            }
+
+            textarea {
+              width: 100%;
+            }
           }
         }
       }

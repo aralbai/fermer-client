@@ -41,7 +41,7 @@ function MyComponent() {
             <p>{title}</p>
             <p>{price} SWM</p>
             <p>{address}</p>
-            <p>{phone}</p>
+            <a href="tel:+998934917166">{phone}</a>
             <p>{desc}</p>
           </div>
         </div>

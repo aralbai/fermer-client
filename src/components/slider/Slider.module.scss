@@ -48,12 +48,18 @@
 
     .menu {
       width: 100%;
-      padding: 0;
+      padding: 10px;
       gap: 0;
       flex-direction: column;
 
       .item {
         width: 100%;
+        background-color: #fff;
+        box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0);
+        margin-bottom: 10px;
+        border-radius: 5px;
+        margin: 10px;
+        position: relative;
 
         div {
           width: 100%;
@@ -61,10 +67,27 @@
           display: flex;
           justify-content: center;
           box-shadow: none;
+          padding: 0;
 
           img {
-            width: 50%;
+            width: 100%;
           }
+        }
+
+        .blur {
+          position: absolute;
+          background-color: rgba(0, 0, 0, 0.3);
+          width: 100%;
+          height: 100%;
+        }
+
+        h2 {
+          position: absolute;
+          color: #fff;
+          font-size: 35px;
+          position: absolute;
+          text-align: center;
+          top: 40%;
         }
       }
     }

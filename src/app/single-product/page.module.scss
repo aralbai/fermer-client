@@ -55,3 +55,18 @@
     }
   }
 }
+
+@media screen and (max-width: 600px) {
+  .singleProduct {
+    .main {
+      flex-direction: column;
+      padding: 0;
+      gap: 0px;
+
+      .left,
+      .right {
+        width: 100%;
+      }
+    }
+  }
+}
